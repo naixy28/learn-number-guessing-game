@@ -141,3 +141,9 @@ git commit -m "chore: clean code"
 git log
 ./number_guess.sh
 ./number_guess.sh
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+ls --color=auto
+git status
+git add .
+git commit -m "feat: dump"
+git status
