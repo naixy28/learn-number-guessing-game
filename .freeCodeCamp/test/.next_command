@@ -147,3 +147,11 @@ git status
 git add .
 git commit -m "feat: dump"
 git status
+cp number_guess.sh ../number_guess.sh
+cd ..
+ls --color=auto
+cd number_guessing_game/
+ls --color=auto
+cp number_guess.sql ../number_guess.sql
+cd ..
+ls --color=auto
